@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0eb58bd74e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-globe"></i></a>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#trabajos">Servicios</a></li>
+                    <li><a href="#footer">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="principal">
+            <section class="seccion-1" id="acerca">
+                <div class="acerca-de">
+                    <h2 id="yo">Acerca de mi</h2>
+                    <p>Bienvenido a mi web</p>
+                    <p id="personalyo">Me llamo Jean, vivo en Lima y mi hobbie favorito es jugar basket, actualmente estoy trabajando y estudiando en la beca generacional con la start up argentina Egg con una metodología de enseñansa diferente.
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="image/ImagenPer.jpg" alt="imagen-personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                    <img src="image/viaje.jpg" alt="iamgencarrusel">
+            </section>
+            <section class="seccion-3" id="trabajos">
+                <div class="trabajos-card">
+                    <img src="image/work.jpeg" alt="mesa">
+                    <h2>Titulo 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, elementum conubia venenatis. Vestibulum pharetra sed eget consequat et massa rhoncus facilisi blandit, hendrerit ante elementum lacus magna lobortis nec sapien ultricies, molestie convallis bibendum est varius cras libero accumsan. Conubia nulla platea in fames congue dis rutrum phasellus parturient cursus primis, sapien mollis ultricies tempor dui facilisis potenti vel pharetra.
+                    </p>
+                </div>
+                <div class="trabajos-card">
+                    <img src="image/work.jpeg" alt="mesa">
+                    <h2>Titulo 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, elementum conubia venenatis. Vestibulum pharetra sed eget consequat et massa rhoncus facilisi blandit, hendrerit ante elementum lacus magna lobortis nec sapien ultricies, molestie convallis bibendum est varius cras libero accumsan. Conubia nulla platea in fames congue dis rutrum phasellus parturient cursus primis, sapien mollis ultricies tempor dui facilisis potenti vel pharetra.
+                    </p>
+                </div>
+                <div class="trabajos-card">
+                    <img src="image/work.jpeg" alt="mesa">
+                    <h2>Titulo 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, elementum conubia venenatis. Vestibulum pharetra sed eget consequat et massa rhoncus facilisi blandit, hendrerit ante elementum lacus magna lobortis nec sapien ultricies, molestie convallis bibendum est varius cras libero accumsan. Conubia nulla platea in fames congue dis rutrum phasellus parturient cursus primis, sapien mollis ultricies tempor dui facilisis potenti vel pharetra.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+
+        <div class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+      
+            <form action="" method="get" class="formulario" id="form">
+              <div class="form-row">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="form-row">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepe@gmail.com"
+                  />
+                </div>
+                <div class="form-row">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                  <button>Enviar</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        <footer>
+            <div id="footer">
+                <h3>Redes Sociales</h3>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.instagram.com/jeanpierre_carrion/">Instagram</a></li>
+                        <li><a href="https://wa.link/sdg0ia">Whatsapp</a></li>
+                    </ul>
+                </nav>
+                <a href="https://app.egg.live/home"><i class="fa-solid fa-circle-info"></i></a>
+            </div>
+        </footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
