@@ -1,6 +1,6 @@
-let nombre = "Marcos";
-let ciudad = "Bogotá";
-let hobbie = "Leer en casa";
+let nombre = "Jean";
+let ciudad = "Lima";
+let hobbie = "jugar basket";
 
 let parrafo = document.querySelector("#personalyo");
 
